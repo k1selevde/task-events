@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`События createArrList По наведению на элементы списка создаётся атрибут title 1`] = `
+<body>
+  <ul>
+    <li
+      title="нулевой элемент"
+    >
+      нулевой элемент
+    </li>
+    <li
+      title="первый элемент"
+    >
+      первый элемент
+    </li>
+    <li
+      title="второй элемент"
+    >
+      второй элемент
+    </li>
+  </ul>
+</body>
+`;
+
+exports[`События createArrList Создан список в body из элементов массива 1`] = `
+<body>
+  <ul>
+    <li>
+      нулевой элемент
+    </li>
+    <li>
+      первый элемент
+    </li>
+    <li>
+      второй элемент
+    </li>
+  </ul>
+</body>
+`;
+
+exports[`События createButton() Кнопка удаляется по клику 1`] = `<body />`;
+
+exports[`События createButton() Создана кнопка в body с текстом "Удали меня" 1`] = `
+<body>
+  <button>
+    Удали меня
+  </button>
+</body>
+`;
+
+exports[`События createLink При первом клике в конец ссылки дописывается её href 1`] = `
+<body>
+  <a
+    href="https://tensor.ru/"
+  >
+    tensor https://tensor.ru/
+  </a>
+</body>
+`;
+
+exports[`События createLink Создана ссылка "tensor" в body 1`] = `
+<body>
+  <a
+    href="https://tensor.ru/"
+  >
+    tensor
+  </a>
+</body>
+`;
+
+exports[`События createList При клике на кнопку добавляется новый элемент списка 1`] = `
+<body>
+  <ul>
+    <li>
+      Пункт
+    </li>
+    <li>
+      Пункт
+    </li>
+  </ul>
+  <button>
+    Добавить пункт
+  </button>
+</body>
+`;
+
+exports[`События createList При клике по новому элементу списка в конец текста добавляется восклицательный знак 1`] = `
+<body>
+  <ul>
+    <li>
+      Пункт
+    </li>
+    <li>
+      Пункт!
+    </li>
+  </ul>
+  <button>
+    Добавить пункт
+  </button>
+</body>
+`;
+
+exports[`События createList При клике по элементу списка в конец текста добавляется восклицательный знак 1`] = `
+<body>
+  <ul>
+    <li>
+      Пункт!
+    </li>
+  </ul>
+  <button>
+    Добавить пункт
+  </button>
+</body>
+`;
+
+exports[`События createList Создан список и кнопка 1`] = `
+<body>
+  <ul>
+    <li>
+      Пункт
+    </li>
+  </ul>
+  <button>
+    Добавить пункт
+  </button>
+</body>
+`;
